@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritik Dave - Resume</title>
+    <style>
+        .para {
+            margin-top: -21px;
+            margin-bottom: -18px;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+        }
+
+        .resume-container {
+            /* border: 1px solid black; */
+
+            /* background-image: linear-gradient(to bottom right,rgb(255 255 255), rgb(196 205 207)); */
+            size: A4;
+
+            position: relative;
+            max-width: 800px;
+            margin: 2px auto;
+            /* Reduced margin */
+            padding: 25px;
+            background-color: #f7f4f4;
+            border-radius: 10px;
+            /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+        }
+
+        .profile-picture {
+            position: absolute;
+            position: absolute;
+            top: 25px;
+            right: 88px;
+            width: 107px;
+            border-radius: 5%;
+            border: -4px solid #ccc;
+            z-index: 32;
+            transform: scaleX(1.16);
+        }
+
+
+        .section {
+            margin-bottom: 10px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: -11px;
+            color: #008080;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        th,
+        td {
+            padding: 6px;
+            text-align: left;
+            border-bottom: 1px solid #a5a5a594;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .technical-skills {
+            column-count: 4;
+            column-gap: 5px;
+        }
+
+        .machine-learning ul,
+        .other-skills ul {
+            column-count: 1;
+            padding-left: 20px;
+            list-style: square;
+        }
+
+        .machine-learning li,
+        .other-skills li {
+            margin-bottom: 5px;
+        }
+
+        .project-list {
+            padding-left: 20px;
+            list-style: disc;
+        }
+
+        /* Add some colors for links */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        /* Add some color to the resume header and section titles */
+        h1,
+        h2 {
+            color: #008080;
+        }
+
+        .project-item {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .certificate-item {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .extracurricular-activities,
+        .other-skills {
+            font-size: 14px;
+            margin-bottom: -24px;
+            margin-top: -8px;
+
+        }
+
+        /* Style the education list */
+        .education-list {
+            padding-left: 20px;
+
+            list-style: none;
+            font-size: 14px;
+        }
+
+        .education-item {
+            margin-bottom: 5px;
+        }
+
+        .education-title {
+            font-weight: bold;
+        }
+
+        .education-details {
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+
+
+
+
+
+
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 15px;
+            margin-bottom: -11px;
+        }
+
+        .skills ul,
+        .certificates ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li,
+        .certificates li {
+            margin-bottom: 5px;
+        }
+
+        .row {
+            display: flex;
+            /* justify-content: space-between; */
+
+            margin-bottom: -39px;
+            margin-top: -32px;
+        }
+
+        .col {
+            flex-basis: 50%;
+        }
+        .coll {
+            flex-basis: 50%;
+            margin-left: 2%;
+        }
+
+        .col-70 {
+            flex-basis: 65%;
+        }
+
+        .col-30 {
+            flex-basis: 30%;
+        }
+
+        .contact-icon {
+            vertical-align: middle;
+            margin-right: 5px;
+            size: 2px;
+            width: 12px;
+            height: 12px;
+        }
+
+        .section-icon {
+            vertical-align: middle;
+            margin-right: 5px;
+            /* size: 2px; */
+            width: 26px;
+            margin-right: 14px;
+        }
+        a {
+    color: #466cff;
+    text-decoration: none;
+    
+}
+    </style>
+
+    </style>
+</head>
+
+<body>
+    <div class="resume-container">
+        <img src="ritik_dave.jpg" alt="Profile Picture" class="profile-picture">
+
+        <h1 style="margin-left: 5px;margin-top: 3px;">Ritik Dave </h1>
+        <p class="para"><img class="contact-icon" src="phone-icon.png" alt="Phone Icon">Mobile: <a target="_blank"
+                href="tel:+919587769429">+919587769429</a>&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp<img class="contact-icon"
+                src="gmail.png" alt="mail"> Email: <a target="_blank" href="mailto:ritikdave9@gmail.com">ritikdave9@gmail.com</a> <br>
+            <img class="contact-icon" src="LinkedIn_icon.png" alt="ln">Linked In: <a target="_blank" href="https:www.linkedin.com/in/ritik-dave-90b789223">
+                www.linkedin.com/in/ritik-dave-90b789223/</a>
+                <br>
+                <img class="contact-icon" src="./portfolio.png"
+                alt="">
+                Portfolio :<a target="_blank" href="https://ritikdave-9.github.io/portfolio/"> https://ritikdave-9.github.io/portfolio/</a>
+                <br><img class="contact-icon" src="address.jpg"
+                alt="ad">Address: Kekri (Rajasthan)
+        </p>
+
+        <br>
+        <div class="section education">
+            <h2 class="section-title" style="margin-bottom: 15px;"><img  class="section-icon" src="education.png" alt="Phone Icon">Education :</h2>
+            <table style="background-color: #ebe7e7; border-radius: 5%;width: 96%; margin-left: 2%;">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institute/College</th>
+                    <th>University/Board</th>
+                    <th>Year</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+                <tr>
+                    <td>B.Tech CSE</td>
+                    <td class="college-name">Arya College of Engineering and IT, Jaipur</td>
+                    <td>RTU</td>
+                    <td>2024</td>
+                    <td>9.32 cgpa till 4th sem</td>
+                </tr>
+                <tr>
+                    <td>Senior Secondary</td>
+                    <td class="college-name">GreenPark Senior Secondry school,Kekri</td>
+                    <td>RBSE</td>
+                    <td>2020</td>
+                    <td>71%</td>
+                </tr>
+                <tr>
+                    <td>Secondary</td>
+                    <td class="college-name">Patel Adarsh Vidhya Niketan Kekri</td>
+                    <td>RBSE</td>
+                    <td>2017</td>
+                    <td>91%</td>
+                </tr>
+            </table>
+        </div>
+        <!-- <div class="section skills"> -->
+        <!-- <h2 class="section-title">Technical Skills</h2> -->
+
+        <div class="section">
+            <!-- <h2 class="section-title">Skills and Certificates:</h2> -->
+            <div class="row">
+                <div class="col">
+                    <h3 class="section-title"><img class="section-icon" src="skills.png" alt="Phone Icon">Skills:</h3>
+                    <ul>
+                        <li>Programming Languages:C++, Python, JavaScript </li>
+                        <li>Frontend Development:HTML, CSS, ReactJs, Bootstrap</li>
+                        <li>Backend Development:NodeJs, ExpressJs, MongoDB</li>                        
+                        <li>Data Science: Data Analysis and Visualization in Python 
+                        </li>
+                    </ul>
+
+                    <div>
+                        <h3 class="section-title"><img class="section-icon" src="certificate.png"
+                                alt="Phone Icon">Training/Certificates:</h3>
+                        <ul style="font-size: 14px;">
+                            <li>Red Hat Certified System Administrator (RHCSA)</li>
+                            <li>AMCAT Employability Test Certificate</li>
+                            <li>HackerRank Python Certificate</li>
+                            <li>Industrial Training in DataAnalysis and Machine Learning in Grras Solutions Pvt Ltd </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- </div> -->
+
+                <div class="col">
+                    <div class="section projects">
+                        <h2 class="section-title"><img class="section-icon" src="projects.png" alt="Phone Icon"
+                                style="margin-bottom: -10px;">Projects:</h2><br>
+
+
+                        <ul class="project-list " style="margin-top: -8px;">
+                            <h4 style="margin-top: -10px;margin-bottom: 0px; text-align: center; color: #212331a8;">Hackathons and Collaborative Projects</h4>
+
+                           
+                            <li class="project-item">
+                                Developed a Blogging site with team in Flow Hackathone and developed the Frontend part of site using ReactJs and secured 2nd Position.
+                                
+                            </li>
+                            <li class="project-item">
+                                <strong>Chiyo : </strong>Developed a Discord Chat Bot in Python using discord API for discord server
+                              </li>
+
+                            
+
+                  
+                        </ul>
+                        <ul class="project-list ">
+
+                            <h4 style="margin-top: -10px;margin-bottom: 0px; color: black; text-align: center;color: #212331a8;"> Individual Projects</h4>
+                            
+                            <li class="project-item">
+                                <strong>KaiwaHub : </strong>A real time Chat Application using MERN Stack and deployed on replit
+                                <br>
+
+                            </li>
+                            <li class="project-item">
+                                <strong>NewsYard :</strong> NewsYard: A React-based project showcasing a real-time news display platform
+                              <br> link : <a target="_blank" href="https://newsyard.netlify.app/">https://newsyard.netlify.app/</a> of the website </li>
+
+
+                            <li class="project-item">
+                 Engaged in data analysis exercises pattern recognition in data set using python libreries Numpy,Pandas,Scikitlearn librery and data visualization using matplotlip librery 
+                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section row" style="margin-top: 15px;">
+                <div class="col-70 extracurricular-activities">
+                    <h2 class="section-title"><img class="section-icon" src="extracir.png"
+                            alt="Phone Icon">Extracurricular Activities :</h2>
+                    <ul class="activity-list" >
+                        <li class="activity-item">Participated in Flow Hackathon, showcasing problem-solving skills.</li>
+                        <li class="activity-item">Participated in college cultural events and performed Flute on stage.
+                        </li>
+                        <li class="activity-item">Coordinated Zephyr and Exergie events in college, demonstrating
+                            excellent organizational skills.</li>
+                    </ul>
+                </div>
+
+                <div class="col-30 other-skills">
+                    <h2 class="section-title"><img class="section-icon" src="music.png"
+                        style="width:16px ;"   alt="Phone Icon">Other Skills :</h2>
+                    <ul class="other-skill-list">
+                        <li class="other-skill-item"><span style="font-weight: bold;">Music :</span> : Flute,Piano
+                            Enthusiast and active member of college music group <span
+                                style="font-weight:bold;font-style:italic;font-family:cursive;">Alfaz band :</span></li>
+                        <!-- <li class="other-skill-item"></li> -->
+                        <li class="other-skill-item"><span style="font-weight: bold;">games :</span> chess,bedminton
+                            actively Participated in college chess tournament </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section row" style="margin-top: -10px;">
+                <div class="col-70 extracurricular-activities">
+                    <h2 class="section-title"><img class="section-icon" src="personal-qualities.webp"
+                            alt="Phone Icon">Personal Qualities :</h2>
+                    <ul class="activity-list">
+                        <li class="activity-item">Fast Learner: Quickly grasp new technologies and concepts to stay ahead in tech's rapid changes.</li>
+                        <li class="activity-item">Great Team Player: Love working in teams, bringing people together to achieve shared goals.
+                        <li class="activity-item">Skilled in AI Tools: Proficient at utilizing AI-powered tools effectively.
+
+
+
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-30 other-skills" style="margin-top: 5%;">
+                    <h2 class="section-title"><img class="section-icon" src="langiage.png"
+                        style="width:16px ;"   alt="Phone Icon">Languages</h2>
+                    <ul class="other-skill-list">
+                        <li class="other-skill-item"><strong>English</strong> Proficient</li>
+                        <li class="other-skill-item"><strong>हिंदी
+                        </strong> Native language</li>
+
+                        
+                      
+                    </ul>
+                </div>
+        </div>
+       
+</body>
+
+</html>
